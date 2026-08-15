@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">🍔 FoodExpress</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pizza</a></li>
+                            <li><a class="dropdown-item" href="#">Burgers</a></li>
+                            <li><a class="dropdown-item" href="#">Biryani</a></li>
+                            <li><a class="dropdown-item" href="#">Desserts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center py-5 bg-light">
+        <h1>Delicious Food, Delivered Fast! </h1>
+        <p>Order your favorite meals from FoodExpress.</p>
+
+        <div class="d-flex flex-column flex-md-row justify-content-center gap-2">
+
+            <button class="btn btn-primary">
+                Order Now
+            </button>
+
+            <button class="btn btn-outline-primary">
+                View Menu
+            </button>
+
+        </div>
+    </div>
+
+
+    <div class="container text-center py-5">
+        <h1 class="text-primary pb-4">Food Categories</h1>
+        <div class="row g-2">
+            <div class="box col-12 col-md-6 col-lg-3 fs-3">🍕 Pizza</div>
+            <div class="box col-12 col-md-6 col-lg-3  fs-3">🍔 Burgers</div>
+            <div class="box col-12 col-md-6 col-lg-3 fs-3">🍛 Biryani</div>
+            <div class="box col-12 col-md-6 col-lg-3  fs-3"> 🍰 Desserts</div>
+        </div>
+    </div>
+
+
+    <div class="heading-section text-center py-5" id="popular-dishes style="background-color: #f8f9fa;">
+        <h1 class="text-primary">Popular Dishes</h1>
+        <p>Choose from our most delicious and popular meals.</p>
+    </div>
+
+
+    <div class="container ">
+        <div class="row g-3">
+            <div class="col-11 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDvTIUDiPEOnDQFnjVkjGDFJF9eKH12TeicA&s"
+                        alt="" style="height:170px;object-fit:cover;" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">🍕 Margherita Pizza</div>
+                        <p>Fresh tomato, mozzarella and basil</p>
+                        <p>₹249</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5Rd8dV10E7DvbV0xo5CbzwdeUU2RVfMpAw&s"
+                        alt="" style="height:170px;object-fit:cover;" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍔 Cheese Burger</div>
+                        <p>FJuicy burger with cheese and vegetables</p>
+                        <p>₹199</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCakcapE55vA7uY8ig9NPwPljSTEkhgKjnQ&s"
+                        style="height:170px;object-fit:cover;" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍛 Chicken Biryani</div>
+                        <p>Authentic spicy chicken biryani</p>
+                        <p>₹299</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/041/888/845/small/bbq-beef-cheese-burger-with-french-fries-potato-and-tomato-slice-isolated-on-wooden-board-top-view-on-table-fast-food-photo.jpg"
+                        style="height:170px;object-fit:cover;" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍰 Chocolate Cake</div>
+                        <p>Rich chocolate cake with cream</p>
+                        <p>₹149</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDvTIUDiPEOnDQFnjVkjGDFJF9eKH12TeicA&s"
+                        alt="" style="height:170px;object-fit:cover;" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍕 Margherita Pizza</div>
+                        <p>Fresh tomato, mozzarella and basil</p>
+                        <p>₹249</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh5Rd8dV10E7DvbV0xo5CbzwdeUU2RVfMpAw&s"
+                        alt=""style="height:170px;object-fit:cover;" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍔 Cheese Burger</div>
+                        <p>FJuicy burger with cheese and vegetables</p>
+                        <p>₹199</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCakcapE55vA7uY8ig9NPwPljSTEkhgKjnQ&s"
+                        style="height:170px;object-fit:cover;" alt="" class="card-image-top">
+                    <div class="card-body">
+                        <div class="card-title">🍛 Chicken Biryani</div>
+                        <p>Authentic spicy chicken biryani</p>
+                        <p>₹299</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/041/888/845/small/bbq-beef-cheese-burger-with-french-fries-potato-and-tomato-slice-isolated-on-wooden-board-top-view-on-table-fast-food-photo.jpg"
+                        style="height: 170px; object-fit:cover;" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title">🍰 Chocolate Cake</div>
+                        <p>Rich chocolate cake with cream</p>
+                        <p>₹149</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="background-color: #f8f9fa;">
+        <div class="heading-section text-center mt-5 pt-5" style="background-color: #f8f9fa;">
+            <h1 class="text-primary">Special Offers</h1>
+            <p>Grab our latest food deals!</p>
+        </div>
+        <div class="row g-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">🔥 20% OFF </div>
+                        <p>Get 20% off on your first order</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">🎉 BUY 1 GET 1 </div>
+                        <p>Order one burger get another free.</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">🚚 FREE DELIVERY</div>
+                        <p>Free delivery on orders above ₹499.</p>
+                        <button type="button" class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about">
+        <div class="container">
+            <div class="row g-2">
+
+                <h2 class="text-center text-primary mt-5 pt-5">About Us</h2>
+                <p class="text-center">We deliver delicious food to your doorstep quickly and safely.</p>
+
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-primary">Our Mission</div>
+                            <p>Our mission is to make delicious and affordable food available to everyone with fast and
+                                reliable delivery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-primary">Why Choose Us ?</div>
+                            <p>Fresh food, affordable prices, fast delivery and great customer service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="cotact-us">
+        <div class="container px-3">
+            <div class="row g-3">
+                <div class="col-12 text-center pt-5">
+                    <h1 class="text-primary">Contact Us</h1>
+                    <p> We'd love to hear from you!</p>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" name="" id="" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email</label>
+                            <input type="email" name="" id="" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Message</label>
+                            <textarea name="Message" id="" class="form-control"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+
+
+                <div class="col-12 col-md-6 my-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title text-center text-primary">Contact Information</div>
+                            <div>
+                                <p>📧 Email : talarimanoj2005@gmail.com </p>
+                                <p> 📞 Phone : 9346178518 </p>
+                                <p>📍 Location : Nandyal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+    <footer class="mt-5">
+        <div class="row">
+            <div class="container-fluid">
+            <div class="col-12 text-center bg-dark text-light py-3">
+                <h1>FoodExpress</h1>
+                <p> Delicious food delivered to your door</p>
+                <div class="container">
+                    <ul style="list-style: none; width:90%;" class="d-flex justify-content-around ">
+                        <li><a href="#home" style="text-decoration: none">Home</a></li>
+                        <li><a href="#offers " style="text-decoration: none">Offers</a></li>
+                        <li><a href="#about" style="text-decoration: none">About</a></li>
+                        <li><a href="#contact" style="text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+                <p>© 2023 FoodExpress. All Rights Reserved.</p>
+            </div>
+        </div>
+</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
